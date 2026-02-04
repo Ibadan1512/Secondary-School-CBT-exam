@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#startScreen {
+  padding: 20px;
+  text-align: center;
+}
+
+#startScreen input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+#startScreen button {
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+#warning {
+  display: none;
+  background: red;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#timer {
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+iframe {
+  display: none;
+  width: 100%;
+  height: 85vh;
+  border: none;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secondary School CBT Exam</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body oncopy="return false" onpaste="return false">
+
+<!-- Pre-exam screen -->
+<div id="startScreen">
+  <h2>📘 Online CBT Examination</h2>
+
+  <p>
+    • Do NOT switch tabs or apps<br>
+    • Do NOT copy or paste<br>
+    • Multiple violations will end the exam<br>
+    • Mobile & computer monitoring is active
+  </p>
+
+  <input type="text" id="studentName" placeholder="Student Full Name" required>
+  <input type="text" id="studentClass" placeholder="Class (e.g SS2A)" required>
+
+  <button onclick="startExam()">Start Exam</button>
+</div>
+
+<!-- Warning bar -->
+<div id="warning"></div>
+
+<!-- Timer -->
+<div id="timer"></div>
+
+<!-- Exam -->
+<iframe 
+  id="examFrame"
+  src="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePxSytYmarV1Kn4vqZc0Km26IbkdsnIoJMR_HrHeBWTfz2_w/viewform?embedded=true" width="640" height="2063" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>">
+</iframe>
+
+<script src="anti_Cheat.js"></script>
+</body>
+</html>
